@@ -1,2 +1,3 @@
 # landing-page
-Exercise landing page using flexbox
+
+Exercise landing page creation using flexbox.
