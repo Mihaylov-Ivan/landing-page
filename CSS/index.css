@@ -35,7 +35,7 @@ body{
 #content{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 #intro{
@@ -72,6 +72,7 @@ body{
 #intro-info p{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
 }
 
 #main{
@@ -101,6 +102,44 @@ body{
     border-radius: 18px;
 }
 
+.example p{
+    width: 250px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#quote{
+    background-color: #E5E7EB;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote-container{
+    width: 600px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote-text{
+    margin: 0;
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    width: 500px;
+    align-self: center;
+}
+
+#quote-author{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: end;
+    align-self: flex-end;
+}
+
 ul{
     list-style: none;
     padding: 0;
@@ -110,4 +149,8 @@ ul{
 a{
     text-decoration: none;
     color: black;
+}
+
+p{
+    margin: 0;
 }
