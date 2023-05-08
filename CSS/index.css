@@ -5,7 +5,7 @@ body{
     padding: 0;
 }
 
-#header{
+#header, #intro, #main, #quote, #signup, #footer{
     padding: 0 25px;
 }
 
@@ -29,6 +29,31 @@ body{
 
 #header a{
     color: white;
+}
+
+#intro{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#intro img{
+    width: 200px;
+}
+
+#intro-info{
+    width: 500px;
+}
+
+#intro-info h1{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#intro-info p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul{
