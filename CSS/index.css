@@ -41,6 +41,15 @@ body{
     width: 200px;
 }
 
+#intro button{
+    color: #E5E7EB;
+    height: 30px;
+    background-color: #3882F6;
+    padding: 0 15px;
+    border: none;
+    border-radius: 8px;
+}
+
 #intro-info{
     width: 500px;
 }
