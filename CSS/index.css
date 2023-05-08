@@ -18,8 +18,9 @@ body{
 }
 
 #header img{
-    width: 75px;
+    width: 85px;
     height: auto;
+    border-radius: 8px;
 }
 
 #header ul{
@@ -31,14 +32,22 @@ body{
     color: white;
 }
 
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 #intro{
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
+    padding: 22px 0;
 }
 
 #intro img{
     width: 200px;
+    border-radius: 14px;
 }
 
 #intro button{
@@ -63,6 +72,33 @@ body{
 #intro-info p{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+#main h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
+
+#examples{
+    display: flex;
+    justify-content: space-around;
+}
+
+.example img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 18px;
 }
 
 ul{
