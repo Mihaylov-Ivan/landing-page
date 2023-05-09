@@ -29,7 +29,7 @@ body{
 }
 
 #header a{
-    color: white;
+    color: #E5E7EB;
 }
 
 #content{
@@ -138,6 +138,56 @@ body{
     margin-top: 10px;
     text-align: end;
     align-self: flex-end;
+}
+
+#signup{
+    align-self: center;
+    display: flex;
+    gap: 70px;
+    width: 700px;
+    background-color: #3882F6;
+    justify-content: center;
+    padding: 40px 0px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+#signup-text{
+    width: 400px;
+}
+
+#signup-text-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#signup-text-text{
+    font-size: 16px;
+}
+
+#signup button{
+    background: transparent;
+    border-color: #E5E7EB;
+    border-width: 2px;
+    color: #E5E7EB;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: min-content;
+    padding: 10px 25px;
+    align-self: center;
+}
+
+#footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 35px 0 35px 0;
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
